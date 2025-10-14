@@ -1,8 +1,13 @@
+.settings/*
 .vscode/*
-.idea/*
+.vs/*
 
-bin/*
 obj/*
+bin/*
+lib/*
+build/*
 
 *.sln
 *.bat
+*.xml
+*.directory
