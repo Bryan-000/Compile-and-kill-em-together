@@ -136,7 +136,7 @@ public static class Networking
             if (msg == "#/d")
             {
                 Bundle.Msg("player.died", name);
-                if (LobbyConfig.HealBosses) Entities.Alive(e => { if (e is Enemy b && b.IsBoss) b.HealBoss(); });
+                //if (LobbyConfig.HealBosses) Entities.Alive(e => { if (e is Enemy b && b.IsBoss) b.HealBoss(); });
             }
 
             else if (msg.StartsWith("#/s") && byte.TryParse(msg[3..], out byte tid) && LocalPlayer.Team == (Team)tid)

@@ -5,6 +5,7 @@ using UnityEngine;
 using Jaket.Assets;
 using Jaket.Net;
 
+/*
 /// <summary> Abstract action performed in the world. </summary>
 public class WorldAction
 {
@@ -94,3 +95,4 @@ public class NetAction : WorldAction
         ));
     }
 }
+*/

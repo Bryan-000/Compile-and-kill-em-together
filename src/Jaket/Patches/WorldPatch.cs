@@ -99,12 +99,12 @@ public class TramPatch
 [HarmonyPatch]
 public class ActionPatch
 {
-    [HarmonyPostfix]
+    /*[HarmonyPostfix]
     [HarmonyPatch(typeof(ObjectActivator), nameof(ObjectActivator.Activate))]
     static void Activate(ObjectActivator __instance)
     {
         if (LobbyController.Online) World.SyncAction(__instance.gameObject);
-    }
+    }*/
 
     [HarmonyPostfix]
     [HarmonyPatch(typeof(FinalDoor), nameof(FinalDoor.Open))]
