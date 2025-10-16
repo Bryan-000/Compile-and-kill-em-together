@@ -152,7 +152,7 @@ public class RemotePlayer : Entity
         }
     }
 
-    public override void Damage(Reader r) { } // => Bullets.DealDamage(enemyId, r); // TODO Damage class
+    public override void Damage(Reader r) => Entities.Damage.Deal(enemyId, r.Float());
 
     public override void Killed(Reader r, int left)
     {
